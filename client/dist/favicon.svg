@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="50" cy="50" r="46" fill="#f0f9ff" />
+
+  <!-- Road Ribbon (Curve) -->
+  <path d="M22 75 C 38 65, 45 80, 78 68" stroke="url(#roadGrad)" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M22 75 C 38 65, 45 80, 78 68" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round" fill="none" />
+
+  <!-- Stylized Cloud (Megha) -->
+  <path d="M30 46 C 30 38, 38 32, 46 33 C 50 25, 62 25, 67 33 C 75 33, 80 40, 78 48 C 82 54, 78 62, 70 62 C 60 62, 38 62, 30 58 C 24 55, 24 47, 30 46 Z" fill="url(#cloudGrad)" />
+
+  <!-- Journey Pin (Prayan) -->
+  <g transform="translate(56, 26)">
+    <path d="M12 0 C 5.37 0, 0 5.37, 0 12 C 0 20, 12 30, 12 30 C 12 30, 24 20, 24 12 C 24 5.37, 18.63 0, 12 0 Z" fill="url(#pinGrad)" />
+    <circle cx="12" cy="11" r="4.5" fill="#ffffff" />
+  </g>
+</svg>
